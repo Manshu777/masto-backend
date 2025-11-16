@@ -59,7 +59,7 @@
 <!-- Offcanval Overlay -->
 
 <!-- Preloader -->
-<div class="preloader"></div>
+<!-- <div class="preloader"></div> -->
 <!-- End Preloader -->
 
 <!-- Header -->
@@ -212,7 +212,7 @@
 
 <!-- Audio -->
 <audio id="audio-element">
-    <source src="{{asset('public/assets/provider-module')}}/sound/notification.mp3" type="audio/mpeg">
+    <source src="{{asset('assets/provider-module')}}/sound/notification.mp3" type="audio/mpeg">
 </audio>
 <script>
     var audio = document.getElementById("audio-element");

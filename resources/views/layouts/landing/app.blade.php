@@ -65,7 +65,7 @@
                 <div class="navbar-bottom-wrapper">
                     <a href="{{route('home')}}" class="logo">
                         <img src="{{asset('storage/app/public/business')}}/{{bs_data($settings,'business_logo', 1)}}"
-                            onerror="this.src='{{asset('public/assets/placeholder.png')}}'" alt="">
+                           alt="">
                     </a>
                     <ul class="menu me-lg-4">
                         <li>
@@ -118,14 +118,14 @@
                         <div class="cont">
                             <a href="#" class="logo">
                                 <img src="{{asset('storage/app/public/business')}}/{{bs_data($settings,'business_logo', 1)}}"
-                                    onerror="this.src='{{asset('public/assets/placeholder.png')}}'"
+                                
                                     alt="logo">
                             </a>
                             <div class="app-btns">
                                 @if($settings->where('key_name','app_url_appstore')->first()->is_active??0)
                                     <a href="{{bs_data($settings,'app_url_appstore', 1)}}" class="d-block">
                                         <img class="w-100"
-                                            onerror="this.src='{{asset('public/assets/placeholder.png')}}'"
+                                       
                                             src="{{asset('public/assets/landing')}}/img/app-btn/app-store.png" alt="">
                                     </a>
                                 @endif
@@ -133,7 +133,7 @@
                                 @if($settings->where('key_name','app_url_playstore')->first()->is_active??0)
                                     <a href="{{bs_data($settings,'app_url_playstore', 1)}}" class="d-block">
                                         <img class="w-100"
-                                            onerror="this.src='{{asset('public/assets/placeholder.png')}}'"
+                
                                             src="{{asset('public/assets/landing')}}/img/app-btn/google-play.png" alt="">
                                     </a>
                                 @endif

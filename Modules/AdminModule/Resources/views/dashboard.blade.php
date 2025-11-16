@@ -165,7 +165,7 @@
                                             <div class="media gap-3">
                                                 <div class="avatar avatar-lg">
                                                     <img class="avatar-img rounded-circle"
-                                                         onerror="this.src='{{asset('assets/admin-module/img/user2x.png')}}'"
+                                                         
                                                          src="{{asset('storage/app/public/provider/logo')}}/{{$provider->logo}}"
                                                          alt="">
                                                 </div>
@@ -201,7 +201,7 @@
                                                 <div class="avatar avatar-lg">
                                                     <img class="avatar-img rounded"
                                                          src="{{asset('storage/app/public/service')}}/{{$booking->detail[0]->service->thumbnail??''}}"
-                                                         onerror="this.src='{{asset('assets/admin-module')}}/img/placeholder.png'"
+                                                        
                                                          alt="">
                                                 </div>
                                                 <div class="media-body ">
